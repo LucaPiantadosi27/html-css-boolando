@@ -205,3 +205,35 @@ nav .logo img {
 #cards-container .col .col-inner .favorite:hover {
     color: red;
 }
+
+footer{
+    background-color: rgb(27, 27, 27);
+    height: 70px;
+    
+    
+}
+ footer span{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    margin margin-top: 12px;
+    
+ }
+
+footer ul{
+    color: white;
+    display: flex;
+    gap: 5px;
+
+    list-style: none;
+    
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.down-link{
+    margin-top: 15px;
+}
