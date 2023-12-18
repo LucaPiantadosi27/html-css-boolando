@@ -6,7 +6,12 @@
 }
 body{
     font-family: sans-serif;
-    padding-top: calc(76px + 60px)
+    padding-top: calc(76px + 60px);
+
+}
+
+.big-container{
+   
 }
 nav{
     position: fixed;
@@ -14,7 +19,7 @@ nav{
     left: 0;
     width: 100%;
     z-index: 10;
-
+    
     background-color: #ff6900;
 
     box-shadow: 4px 0 6px rgba(0, 0, 0, 0.4);
@@ -25,6 +30,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+
 
     padding: 20px 0
 }
@@ -212,7 +219,7 @@ footer{
     
     
 }
- footer span{
+ footer span {
     color: white;
     font-weight: bold;
     font-size: medium;
@@ -220,12 +227,18 @@ footer{
     
  }
 
+.f{
+
+ }
 footer ul{
     color: white;
     display: flex;
     gap: 5px;
 
     list-style: none;
+    
+}
+footer ul li{
     
 }
 footer ul a{
@@ -237,3 +250,4 @@ footer ul a{
 .down-link{
     margin-top: 15px;
 }
+
